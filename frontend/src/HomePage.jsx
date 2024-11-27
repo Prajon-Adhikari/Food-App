@@ -8,8 +8,11 @@ export default function HomePage() {
       <div className="app-form-container">
         <div className="home-page-container">
           <Navbar />
-          <img src={burgerimg} alt="" className="burger-img homepage-img" />
-          <img src={pancakeimg} alt="" className="pancake-img homepage-img" />
+          <div className="welcome-page">
+            <img src={burgerimg} alt="" className="burger-img homepage-img" />
+            <h1>WELCOME TO FOODAPP</h1>
+            <img src={pancakeimg} alt="" className="pancake-img homepage-img" />
+          </div>
         </div>
       </div>
     </div>

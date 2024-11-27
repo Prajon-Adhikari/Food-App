@@ -87,6 +87,20 @@
     border-radius: 10px;
 }
 
+.welcome-page {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-page h1{
+    font-size: 4rem;
+    max-width: 400px;
+    text-align: center;
+    font-family: "Charm";
+}
+
 .burger-img{
     top: 100px;
     right: 200px;
